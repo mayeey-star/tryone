@@ -1,0 +1,274 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FEFAE0;
+    color: #14120E;
+    line-height: 1.6;
+    background-image: url('5U5xkIx - Imgur.png'); /* Add a subtle background texture image */
+    background-repeat: repeat;
+}
+
+header {
+    background-color: #283628;
+    color: #FEFAE0;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header #logo img {
+    max-width: 150px; /* Adjust the logo size */
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #FEFAE0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+#hero {
+    background-image: url('_coffee shop which has internal designs which are nature and Modern, so it must give a comfortable vibe and be unique and charming..jpg'); /* Hero image for the background */
+    background-size: cover;
+    background-position: center;
+    color: #FEFAE0;
+    padding: 6rem 1rem;
+    text-align: center;
+    font-family: 'Great Vibes', cursive; /* Textured font for hero */
+}
+
+#hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#hero .btn {
+    background-color: #87551D;
+    padding: 12px 30px;
+    color: #FEFAE0;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#hero .btn:hover {
+    background-color: #606C38; /* Darker shade for hover effect */
+}
+
+#about {
+    background-color: #C3A87F;
+    padding: 2rem 1rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#menu, #events {
+    padding: 3rem 1rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu-category ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.menu-category h3 {
+    color: #87551D;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #44270D;
+    color: #FEFAE0;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer a {
+    color: #FEFAE0;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FEFAE0; /* Soft background color */
+    color: #283628; /* Dark green for text */
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #606C38; /* Olive green */
+    color: #FEFAE0;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+}
+
+.menu-section {
+    padding: 2rem;
+    margin: 1rem auto;
+    width: 80%;
+    max-width: 1000px;
+    background-color: #FEFAE0; /* White background for each section */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+}
+
+.menu-section h2 {
+    font-size: 2rem;
+    color: #606C38;
+    margin-bottom: 1rem;
+}
+
+.menu-section ul {
+    list-style-type: none;
+}
+
+.menu-section ul li {
+    font-size: 1.2rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #606C38; /* Light gray line between items */
+}
+
+.menu-section ul li:last-child {
+    border-bottom: none; /* Remove line from last item */
+}
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FEFAE0;
+    color: #14120E;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #283628;
+    color: #FEFAE0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+h2 {
+    color: #606C38;
+    background-color: #ebe4b9;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #606C38;
+    background-color: #ebe4b9;
+    font-size: 1.75em;
+    margin-top: 20px;
+    
+}
+
+.activity-timetable {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.activity-item {
+    background-color: #FEFAE0;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.activity-time {
+    font-weight: bold;
+    color: #44270D;
+    font-size: 1.1em;
+}
+
+.activity-name {
+    color: #6A2C0F;
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+.activity-description {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #87551D;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+ul li strong {
+    color: #44270D;
+}
+
+.activity-timetable p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #44270D;
+}
